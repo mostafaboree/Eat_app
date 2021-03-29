@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:background="#a44a3f"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp">
+            <TextView
+                android:id="@+id/comment_tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01224530844"
+                android:textColor="#3c6e71"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+            <RatingBar
+                android:id="@+id/comment_rate"
+                style="@android:style/Widget.Material.Light.RatingBar.Indicator"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                tools:ignore="NewApi" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/comment_tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#284b63"
+            android:padding="4dp"
+
+            android:text="this your comment about this ma"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

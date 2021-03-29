@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <RatingBar
+        android:id="@+id/rating_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+
+        android:numStars="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rating_user"
+        android:layout_width="171dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Excellent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/rating_user"
+        app:layout_constraintStart_toStartOf="@+id/rating_user"
+        app:layout_constraintTop_toBottomOf="@+id/rating_user" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rating_user"
+        app:cardCornerRadius="8dp"
+        android:padding="8dp"
+        android:background="@drawable/backgroung_bt_follow">
+
+        <EditText
+            android:id="@+id/ed_comment_user"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/backgroung_bt_follow"
+            android:gravity="top"
+            android:layout_gravity="center"
+            android:hint="please enter your comment"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:textColor="#ee22"
+            android:textColorHint="#000" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

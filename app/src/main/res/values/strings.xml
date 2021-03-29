@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Eat_app</string>
+    <string name="singu">Singup</string>
+    <string name="singin">SingIn</string>
+    <string name="singup">Singup</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="certs">
+        <item>MIIEqDCCA5CgAwIBAgIJA071MA0GCSqGSIb3DQEBBAUAMIGUMQsww...</item>
+    </string-array>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="total">Total : $</string>
+    <string name="place_order">place order</string>
+    <string name="password">Password</string>
+    <string name="cart">Cart</string>
+    <string name="order">Order</string>
+    <string name="title_activity_tracker_order">Map</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="logout">logout</string>
+</resources>

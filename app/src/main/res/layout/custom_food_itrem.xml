@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardUseCompatPadding="true">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/iv_food_item"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/my_bg"/>
+    <View
+        android:id="@+id/view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shadow_for_love_white"
+        android:layout_width="130dp"
+        android:layout_height="90dp"/>
+    <ImageView
+        android:id="@+id/love"
+        android:src="@drawable/ic_favorite_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:visibility="visible"
+        />
+    <ImageView
+        android:id="@+id/loveb"
+
+        android:src="@drawable/ic_baseline_favorite_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+       />
+
+    <TextView
+        android:id="@+id/tv_food_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="meal_categories"
+
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="#1e1e1e"
+        android:gravity="center"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_below="@id/iv_food_item"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="12dp"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

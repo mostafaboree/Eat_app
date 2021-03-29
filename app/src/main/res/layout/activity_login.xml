@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Login"
+    android:background="@drawable/my_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_phone_number_singin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="34sp"
+            android:textColorHint="@android:color/white"
+            android:hint="phone Number"
+            android:textColor="@android:color/white"
+            android:inputType="phone"
+            app:met_maxCharacters="11"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            app:met_singleLineEllipsis="true"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_name_singin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="34sp"
+            android:textColorHint="@android:color/white"
+            android:hint="name"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            app:met_maxCharacters="20"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_password_singIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="34sp"
+            android:textColorHint="@android:color/white"
+            android:hint="@string/password"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            app:met_maxCharacters="11"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@android:color/white"
+
+            app:met_singleLineEllipsis="true"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_sing_singin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="24dp"
+        android:padding="3dp"
+        android:shadowColor="#000"
+        android:text="@string/singin"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/backgroung_bt"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.873"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

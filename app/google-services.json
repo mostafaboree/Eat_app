@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "743156192488",
+    "firebase_url": "https://eat-app-484fe.firebaseio.com",
+    "project_id": "eat-app-484fe",
+    "storage_bucket": "eat-app-484fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743156192488:android:a8dc33e886d0c62acb655d",
+        "android_client_info": {
+          "package_name": "com.mostafabor3e.eat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743156192488-sc7jiuun66snk94e1mje9espobgivnra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZNNYTZ6NGMlYPb5gAva8rQpYey_nYQQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743156192488-sc7jiuun66snk94e1mje9espobgivnra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
